@@ -43,7 +43,7 @@ Run the following command in the terminal:
 streamlit run main.py
 ## 🌐 Live Demo
 
-👉 (Add your deployed app link here)
+👉 https://fitsync-project-utkarsh-palgit-jg2rujms8rxgaxmbesga5p.streamlit.app/
 
 ## 🤖 Built with AI
 
