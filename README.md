@@ -1,36 +1,54 @@
-# 🚀 Code with AI: FitSync Analytics
 
-Welcome to the **FitSync** project! This repository is your home for the next 5 weeks as we build a professional-grade health analytics dashboard using AI-driven workflows.
+## 🚀 FitSync
+Your Personal Health Analytics Platform
 
-## 📋 Project Basics
-* **Project Title:** FitSync (Personal Health Analytics)
-* **Course:** Code with AI 
-* **Institution:** Saras AI Institute 
+## 📌 Project Overview
 
-## 🛠️ Repository Setup & Naming
-**CRITICAL:** When you clone the repository, ensure your repository follows this naming convention:
-`fitsync-project-firstname-lastname`
+FitSync is a personal health analytics dashboard built using Python and Streamlit. It provides users with insights into their daily health data like steps, sleep, and recovery score through a clean and interactive interface. The application is divided into three pages—Main, Dashboard, and Trends—each serving a specific purpose for better user experience. This project highlights strong skills in data analysis, UI design, and building real-world interactive applications.
 
-## 💻 How to Start (Codespaces)
-We use a cloud-based "AI Cockpit" to ensure a consistent environment for everyone.
-1. Click the green **"<> Code"** button at the top right of this page.
-2. Select the **Codespaces** tab.
-3. Click **"Create codespace on main"**.
-4. Once it loads, ensure the **Continue** extension is active.
+## 🛠️ Tech Stack
 
-## 📅 Weekly Workflow (Update After Each Session)
-You are expected to commit your progress after every live session.
-* **Week 1:** Scaffold folders and generate `health_data.csv`.
-* **Week 2:** Clean data and implement the `Recovery Score` logic.
-* **Week 3:** Build the Streamlit UI and KPI metrics.
-* **Week 4:** Add Plotly visualizations and @st.cache optimization.
-* **Week 5:** Finalize documentation and deploy live.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.x-brightgreen)
+![Pandas](https://img.shields.io/badge/Pandas-1.x-yellow)
+![Plotly](https://img.shields.io/badge/Plotly-5.x-orange)
+![GitHub Codespaces](https://img.shields.io/badge/GitHub%20Codespaces-blueviolet)
 
-## 📤 Submission Instructions
-1. Ensure all your changes are pushed to GitHub: `git push origin main`.
-2. Copy the URL of your repository (e.g., `https://github.com/saras-ai/fitsync-project-firstname-lastname`).
-3. Paste this URL into the **Module 1 Assignment** slot in the **LMS (Learning Management System)**.
-4. **Note:** Your code will also be automatically graded via GitHub Actions.
 
----
-*Built with GitHub Copilot & Cursor @ Saras AI Institute*.
+
+
+## ✨ Key Features
+🏠 Main Page – Clean landing page with theme switch (Dark/Light mode) and navigation buttons   
+📊 Dashboard Page – Displays key KPIs and interactive charts for steps, sleep, and recovery    
+📈 Trends Page – Shows histograms and deeper insights for better understanding of data       
+🎨 Dark Theme Support – Modern UI for better visual experience                               
+⚡ Caching – Faster data loading and improved performance                                   
+🔄 Dynamic Filtering – Real-time updates based on selected time range
+🤖 Automated Trends – Insights generated from processed data                                 
+
+## 📸 Screenshots
+
+## 🏠 Main Page
+![alt text](SCREENSHIOTS/image.png)                                                      \
+                                                   
+## 📊 Dashboard Page
+![alt text](SCREENSHOTS/dashboard.png)                                              
+
+## 📈 Trends Page
+![alt text](SCREENSHOTS/trends.png)
+## ▶️ How to Run
+Clone the repository                           
+Open a new GitHub Codespace              
+Run the following command in the terminal:                               
+streamlit run main.py
+## 🌐 Live Demo
+
+👉 (Add your deployed app link here)
+
+## 🤖 Built with AI
+
+This project was developed with the help of Continue Agent in GitHub Codespaces to speed up development and improve productivity. AI was mainly used for syntax assistance and quick suggestions, while all major decisions related to project structure, logic, and data processing were implemented independently.
+
+## 💡
+
+This project demonstrates the ability to build interactive dashboards, work with real-world data, and design clean user interfaces using Python.

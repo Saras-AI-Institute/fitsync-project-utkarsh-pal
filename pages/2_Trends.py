@@ -18,7 +18,12 @@ time_range = st.sidebar.selectbox(
 )
 
 # Load and process the data
-df = process_data()
+@st.cache_data
+def load_and_process_data():
+    return process_data()
+
+# Load and process data with caching
+df = load_and_process_data()
 
 # Filter the dataframe based on the selected time range
 if time_range == "Last 7 Days":
@@ -87,6 +92,3 @@ fig5 = px.histogram(
     title='Distribution of Sleep Hours'
 )
 hist_cols2[1].plotly_chart(fig5, use_container_width=True)
-
-
-

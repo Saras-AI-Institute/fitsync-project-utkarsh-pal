@@ -21,7 +21,12 @@ time_range = st.sidebar.selectbox(
 a1, a2, a3 = st.columns(3)
 
 # Load and process the data
-df = process_data()
+@st.cache_data
+def load_and_process_data():
+    return process_data()
+
+# Load and process data with caching
+df = load_and_process_data()
 
 # Filter the dataframe based on the selected time range
 if time_range == "Last 7 Days":
@@ -102,5 +107,3 @@ fig4 = px.line(
     labels={'Calories_Burned': 'Calories Burned', 'Date': 'Date'}
 )
 col4.plotly_chart(fig4, use_container_width=True)
-
-
