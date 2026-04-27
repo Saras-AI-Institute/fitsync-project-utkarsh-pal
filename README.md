@@ -29,7 +29,7 @@ FitSync is a personal health analytics dashboard built using Python and Streamli
 ## 📸 Screenshots
 
 ## 🏠 Main Page
-![alt text](SCREENSHIOTS/image.png)                                                      \
+![alt text](SCREENSHOTS/image.png)                                                      
                                                    
 ## 📊 Dashboard Page
 ![alt text](SCREENSHOTS/dashboard.png)                                              
